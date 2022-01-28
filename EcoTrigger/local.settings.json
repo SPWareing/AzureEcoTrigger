@@ -1,7 +1,0 @@
-{
-  "IsEncrypted": false,
-  "Values": {
-    "FUNCTIONS_WORKER_RUNTIME": "python",
-    "AzureWebJobsStorage": "DefaultEndpointsProtocol=https;AccountName=dp300store;AccountKey=EKisXYu/lxcnU3yVcxzmyW3vXlEO4YGBSbjzciLQw13baVz/ClLc67NzeZfkn5irKh5qC4NWVB69KQFX4mmrmA==;EndpointSuffix=core.windows.net"
-  }
-}
