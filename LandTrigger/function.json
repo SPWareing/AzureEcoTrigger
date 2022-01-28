@@ -1,0 +1,19 @@
+{
+  "scriptFile": "land_script.py",
+  "bindings": [
+    {
+      "name": "mytimer",
+      "type": "timerTrigger",
+      "direction": "in",
+      "schedule": "0 0 7 * */4 W"
+    },
+    
+    {
+      "type": "blob",
+      "direction": "out",
+      "name": "outputblob",
+      "path": "datasets/LAN__event_{Datetime}.csv",
+      "connection": "AzureWebJobsStorage"
+    }
+  ]
+}
