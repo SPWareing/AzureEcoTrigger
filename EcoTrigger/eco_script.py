@@ -44,7 +44,14 @@ def main(mytimer: func.TimerRequest, outputBlob: func.Out[bytes]) -> None:
     r"https://data.gov.uk/dataset/bd0cd4e0-0c1d-456f-bebe-e27045336ee6/ramsar-sites-wetlands-of-international-importance",
     r"https://data.gov.uk/dataset/20883869-b2b8-4f85-b3a1-fe46e3423134/special-protection-areas-spa",
     r"https://data.gov.uk/dataset/4908e142-5266-4917-9a3d-751ff1c058cd/special-areas-of-conservation-sacs",
-    r"https://data.gov.uk/dataset/c84ab987-8504-4ae7-a0db-c28822083890/sites-of-special-scientific-interest-sssis"]
+    r"https://data.gov.uk/dataset/c84ab987-8504-4ae7-a0db-c28822083890/sites-of-special-scientific-interest-sssis",
+    r"https://data.gov.uk/dataset/2559b8bc-ddd6-4cb1-8a98-9422e1b1865a/special-area-of-conservation-scotland",
+    r"https://data.gov.uk/dataset/c2f57ed9-5601-4864-af5f-a6e73e977f54/ancient-woodland-inventory-scotland",
+    r"https://data.gov.uk/dataset/ff131012-8777-42c9-a263-97cead27ddee/local-nature-reserves-scotland",
+    r"https://data.gov.uk/dataset/083883b6-988f-4b3a-b957-51351371b26d/wetland-of-international-importance-scotland",
+    r"https://data.gov.uk/dataset/2559b8bc-ddd6-4cb1-8a98-9422e1b1865a/special-area-of-conservation-scotland",
+    r"https://data.gov.uk/dataset/549cfe11-819d-4b0c-9479-9c70135fe9cf/special-protection-area-scotland",
+    r"https://data.gov.uk/dataset/d64bf689-4ce8-465b-b00e-6a57dec94a22/site-of-special-scientific-interest-scotland"]
 
 
     if mytimer.past_due:
