@@ -51,7 +51,9 @@ def main(mytimer: func.TimerRequest, outputBlob: func.Out[bytes]) -> None:
     r"https://data.gov.uk/dataset/083883b6-988f-4b3a-b957-51351371b26d/wetland-of-international-importance-scotland",
     r"https://data.gov.uk/dataset/2559b8bc-ddd6-4cb1-8a98-9422e1b1865a/special-area-of-conservation-scotland",
     r"https://data.gov.uk/dataset/549cfe11-819d-4b0c-9479-9c70135fe9cf/special-protection-area-scotland",
-    r"https://data.gov.uk/dataset/d64bf689-4ce8-465b-b00e-6a57dec94a22/site-of-special-scientific-interest-scotland"]
+    r"https://data.gov.uk/dataset/d64bf689-4ce8-465b-b00e-6a57dec94a22/site-of-special-scientific-interest-scotland",
+    r"https://www.data.gov.uk/dataset/80c075c3-1880-44a0-bffc-69e20f307c21/marine-conservation-zones-england",
+    r"https://www.data.gov.uk/dataset/0ef2ed26-2f04-4e0f-9493-ffbdbfaeb159/habitat-networks-england"]
 
 
     if mytimer.past_due:

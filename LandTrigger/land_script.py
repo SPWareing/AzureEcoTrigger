@@ -66,9 +66,9 @@ def main(mytimer: func.TimerRequest, outputblob: func.Out[bytes]):
                 r"https://data.gov.uk/dataset/2aee95fc-80aa-4c5b-9377-74971fdc31c6/millennium-greens-england-polygons",
                 r"https://data.gov.uk/dataset/21104eeb-4a53-4e41-8ada-d2d442e416e0/national-character-areas-england",
                 r"https://data.gov.uk/dataset/334e1b27-e193-4ef5-b14e-696b58bb7e95/national-parks-england",
-                r"https://data.gov.uk/dataset/ac8c851c-99a0-4488-8973-6c8863529c45/national-trails"]    
+                r"https://data.gov.uk/dataset/ac8c851c-99a0-4488-8973-6c8863529c45/national-trails",
+                r"https://www.data.gov.uk/dataset/ade8707e-70dc-4227-8ae5-2637261eeae3/os-rivers-data"]    
     uri_list = uri_naturalengland + uri_spatialdata + uri_environment_agency + uri_list_wales
-
 
     LAdf = pd.DataFrame()
     for uri in uri_list:
