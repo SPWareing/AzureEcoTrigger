@@ -27,19 +27,19 @@ def main(mytimer: func.TimerRequest, outputblob: func.Out[bytes]):
     if mytimer.past_due:
         logging.info('The timer is past due!')
     #URL lists split for editing
-    uri_list_wales =  [r"https://data.gov.uk/dataset/b40871c7-ab45-44f1-8989-47f872e4a9da/areas-of-outstanding-natural-beauty-aonbs",
-                r"https://data.gov.uk/dataset/e8f74fed-538a-491c-8f42-74fbfa529b0a/wales-coast-path",
-                r"https://data.gov.uk/dataset/14aae4d3-e8aa-4b6a-a571-ef36d9348e53/country-parks",
-                r"https://data.gov.uk/dataset/d98b4147-fce3-4964-b262-b770677629d5/open-access-open-country-crow-act",
-                r"https://data.gov.uk/dataset/5c6a161e-eb22-4037-ae5d-3c295fe61c76/lakes-inventory",
-                r"https://data.gov.uk/dataset/e85cbfa8-a3bd-41c4-8e05-d96ff211d79d/landmap-cultural-landscape",
-                r"https://data.gov.uk/dataset/8afe10cf-08e9-45f9-939e-dd8f9230dfae/landmap-geological-landscape",
-                r"https://data.gov.uk/dataset/781f2d08-1d02-40d9-b698-6a71d2593832/landmap-landscape-habitats",
-                r"https://data.gov.uk/dataset/4d9d76de-0a41-472e-a5e6-36cdbaf407f3/landmap-historic-landscape",
-                r"https://data.gov.uk/dataset/58d3a7b4-4985-4954-a56b-1b8e1189cb43/landmap-visual-and-sensory",
-                r"https://data.gov.uk/dataset/61d79229-de4a-4f7e-8546-8ff791c50dd7/national-trails",
-                r"https://data.gov.uk/dataset/650efdde-ddd3-4d26-9975-8e23ab463cbf/heritage-coast",
-                r"https://data.gov.uk/dataset/d09ae27f-599d-48ee-b65e-70c1e480b1b6/flood-alert-areas"]    
+    uri_list_wales =  [r"https://www.data.gov.uk/dataset/71b527aa-03e7-4fa2-9730-e6af6cdac81d/areas-of-outstanding-natural-beauty-aonbs",
+                r"https://www.data.gov.uk/dataset/a9e88705-53bd-4616-ac0a-e1dbae3cf210/wales-coast-path",
+                r"https://www.data.gov.uk/dataset/93a79e76-0645-4dc2-a33b-3360b6dde43e/country-parks",
+                r"https://www.data.gov.uk/dataset/7a78e4b6-4a7f-471c-a381-5e03dddc7932/open-access-open-country-crow-act",
+                r"https://www.data.gov.uk/dataset/f548528f-5e98-4cc7-b186-1ad30609794c/lakes-inventory",
+                r"https://www.data.gov.uk/dataset/6a7eae7d-8a02-4977-b5cc-388fa8a188af/landmap-cultural-landscape",
+                r"https://www.data.gov.uk/dataset/e364fc11-48ae-4d0b-a90e-666b83d747ad/landmap-geological-landscape",
+                r"https://www.data.gov.uk/dataset/9dc96ce6-d95d-4b9e-9776-3c9dad60765e/landmap-landscape-habitats",
+                r"https://www.data.gov.uk/dataset/1dd3f0c1-92ba-4127-8b82-611fea488ea6/landmap-historic-landscape",
+                r"https://www.data.gov.uk/dataset/04963edf-0816-429f-880e-0825b578543a/landmap-visual-and-sensory",
+                r"https://www.data.gov.uk/dataset/be90a777-2cc5-4edd-bbd5-f0e8b4cd1bad/national-trails",
+                r"https://www.data.gov.uk/dataset/10831b10-9f7c-46c3-bff4-ddbbcbf8462c/heritage-coast",
+                r"https://www.data.gov.uk/dataset/d684b10e-58aa-4a5b-a4de-ce29a70816b6/flood-alert-areas"]    
     '''No Sustrans Data on data.gov.uk'''
     uri_environment_agency =[r"https://data.gov.uk/dataset/cf494c44-05cd-4060-a029-35937970c9c6/flood-map-for-planning-rivers-and-sea-flood-zone-2",
                 r"https://data.gov.uk/dataset/bed63fc1-dd26-4685-b143-2941088923b3/flood-map-for-planning-rivers-and-sea-flood-zone-3",
