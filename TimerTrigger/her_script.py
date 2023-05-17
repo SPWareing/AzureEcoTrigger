@@ -180,7 +180,7 @@ def main(mytimer: func.TimerRequest, outputblob: func.Out[bytes]):
 
     if len(cadws)> 0:
         logging.info(f'The length of the Cadw dataset is: {len(cadws)}')
-        cadws.drop(columns=['Keywords', 'Point of contact', 'License', 'Category', 'Type'], inplace= True)
+        cadws.drop(columns=['Keywords', 'Point of contact', 'Licence', 'Category', 'Type'], inplace= True)
         popped = cadws.pop('dataset')
         cadws.insert(0, 'dataset', popped)
         cadws.insert(0, 'organisation', 'Cadw')
